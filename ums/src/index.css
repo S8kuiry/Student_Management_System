@@ -1,0 +1,9 @@
+
+*{
+  padding:none;
+  margin:none;
+
+}
+::-webkit-scrollbar{
+  display: none;
+}

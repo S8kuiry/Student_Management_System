@@ -1,0 +1,45 @@
+
+
+
+.home{
+    width:100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h_nav{
+    height:10vh;
+    width:10%;
+
+}
+#h_img{
+    width:120px;
+    height:150px;
+    background-color: gray;
+    margin:20px 0px;
+}
+.h_content{
+    width:100%;
+    height:40%;
+    
+    
+}
+#h_btn{
+    color:whitesmoke;
+    width:80px;
+    height:40px;
+}
+.h_right{
+    height:100%;
+    width:90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-right:15px;
+    padding-left: 45px;
+
+
+}

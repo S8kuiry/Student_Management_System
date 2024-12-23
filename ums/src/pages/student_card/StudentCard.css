@@ -1,0 +1,118 @@
+
+*{
+    margin-top: 0px;
+}
+.stu_card{
+    margin-top:-60px;
+    
+    width:100%;
+    height:101vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s_card{
+    width:65%;
+    height:75%;
+    background-color: brown;
+    border-radius:9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s_card_left{
+    height: 100%;
+    width:38%;
+    border-bottom-left-radius: 9px;
+    border-right: 0.5px  solid  whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 15px 15px;
+    color: whitesmoke;
+    gap:4px;
+    
+}
+.s_card_img{
+    width:100%;
+    height:180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.s_card_right{
+    height: 100%;
+    width:62%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 0px;
+}
+.cal_1{
+    width:100%;
+    height:60px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px 0px;
+    padding: 0px 20px;
+
+
+}
+.cal_1 .input_container input{
+    border-radius: 4px;
+    background-color: rgba(245, 245, 245, 0.547);
+    width:100px;
+    border: none;
+    outline: none;
+    padding: 0px  8px;
+    
+    
+}
+.cal_1 .input_container div{
+    border-radius: 4px;
+    background-color: rgba(245, 245, 245, 0.547);
+    width:100px;
+    height:40px;
+    border: none;
+    outline: none;
+    padding: 0px  8px;
+    
+    
+}
+.input_container{
+    height:100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+}
+.input_container button{
+    border-radius: 4px;
+    /*box-shadow: 0px 0px  10px 0px rgba(245, 245, 245, 0.796);*/
+    background-color: rgb(255, 89, 0);
+    color:whitesmoke;
+    width:100px;
+    border: none;
+    outline: none;
+    padding: 5px  8px;
+
+}
+#sub_btn{
+    border-radius: 4px;
+    /*box-shadow: 0px 0px  10px 0px rgba(245, 245, 245, 0.796);*/
+    background-color: rgb(255, 89, 0);
+    color:whitesmoke;
+    width:100px;
+    border: none;
+    outline: none;
+    padding: 10px  8px;
+
+}
